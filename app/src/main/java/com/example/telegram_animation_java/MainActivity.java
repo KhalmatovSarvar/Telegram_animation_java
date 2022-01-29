@@ -61,26 +61,37 @@ public class MainActivity extends AppCompatActivity {
                     case 1:{
                         lottieAnimationView.setAnimation("speed.json");
                         lottieAnimationView.playAnimation();
+                        break;
                     }
                     case 2:{
                         lottieAnimationView.setAnimation("free.json");
-                        lottieAnimationView.playAnimation();}
+                        lottieAnimationView.playAnimation();
+                        break;
+                    }
 
                     case 3:{
                         lottieAnimationView.setAnimation("infinity.json");
-                        lottieAnimationView.playAnimation();}
+                        lottieAnimationView.playAnimation();
+                        break;
+                    }
 
                     case 4:{
                         lottieAnimationView.setAnimation("secure.json");
-                        lottieAnimationView.playAnimation();}
+                        lottieAnimationView.playAnimation();
+                        break;
+                    }
 
                     case 5:{
                         lottieAnimationView.setAnimation("cloud.json");
-                        lottieAnimationView.playAnimation();}
+                        lottieAnimationView.playAnimation();
+                        break;
+                    }
 
                     default:{
-                        lottieAnimationView.setAnimation("fast.json");
-                        lottieAnimationView.playAnimation();}
+                        lottieAnimationView.setAnimation("telegram.json");
+                        lottieAnimationView.playAnimation();
+                        break;
+                    }
 
                 }
 
